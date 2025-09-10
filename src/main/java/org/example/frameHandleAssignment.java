@@ -19,5 +19,7 @@ public class frameHandleAssignment {
         driver.switchTo().frame(driver.findElement(By.xpath("//frame[@name='frame-middle']")));
         System.out.println(driver.findElement(By.id("content")).getText());
 
+
+        driver.quit();
     }
 }
